@@ -4,3 +4,10 @@ margin: 0;
 padding: 0;
 }
 
+#Mash
+{
+background-image: url(../Assets/Angra.Mainyu.jpg);
+min-width: 100vw;
+min-height: 100vh;
+color: white;
+}
