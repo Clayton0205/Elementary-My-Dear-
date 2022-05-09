@@ -5,42 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./style/style.css"> 
+    <link rel="stylesheet" href="./style/style.css">
+
     <title>Digital Portfolio</title>
 </head>
-<body>
+<body  style="overflow-x: hidden">
 <!-- Header -->
 <header class="header-dark bg-dark">
-    <div class=""> 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Clayton Adonis</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
-                <ul class="navbar-nav"> 
-                    <li>
-                        <button type="button" class="btn btn-dark">Dark</button>
-                    </li>
-                    <li>
-                        <button type="button" class="btn btn-dark">Dark</button>
-                    </li>
-                    <li>
-                        <button type="button" class="btn btn-dark">Dark</button>
-                    </li>
-                    <li>
-                        <button type="button" class="btn btn-dark">Dark</button>
-                    </li>
-                    <li>
-                        <button type="button" class="btn btn-danger"><i class="bi bi-arrow-down"></i></button>
-                    </li>
-                </ul>
-              </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Clayton Adonis</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <section class="px-5 mx-5">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#About" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#Passion">Passon Board</a></li>
+                          <li><a class="dropdown-item" href="#Skills">Skills</a></li>
+                          <li><a class="dropdown-item" href="#Educational Background">Educational Background</a></li>
+                          <li><a class="dropdown-item" href="#Work Expierence">Work Expierence</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
-    </div>
+        </section>
+        </div>
+      </nav>
 </header>
+<main>
     <div class="font-monospace d-flex align-items-center justify-content-center flex-column " id="Mash">
         <h3 >
             Aspiring
@@ -51,7 +51,7 @@
     </div>
     <div class="container py-5 my-5">
         <div class="row">
-            <h2>About</h2>
+            <h2 id="About">About</h2>
             <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo adipisci doloribus enim dignissimos quidem aperiam sit. Aspernatur iure fugit rerum dicta. Cupiditate, saepe corrupti voluptates unde aliquid minima atque vero?
                <div class="row">
                    <div class="col">Full Name</div>
@@ -83,13 +83,13 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row" id="Passion">
             <h2>Passion Board</h2>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorem earum aliquam soluta voluptatum in aut, tenetur veniam molestias numquam. Id error asperiores saepe quis adipisci amet eaque iste quae!
         </div>
     </div>
     <div class="container">
-        <h2>Skills</h2>
+        <h2 id="Skills">Skills</h2>
         <div class="row">
             <h3>Soft Skills</h3>
             <table>
@@ -132,14 +132,14 @@
     </div>
     <div class="container">
         <div class="row">
-            <h3>Educational Background</h3>
+            <h3 id="Educational Background">Educational Background</h3>
             <div class="col">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe quis hic reprehenderit perspiciatis dolor labore voluptatum obcaecati ipsum perferendis, pariatur quod aliquid deleniti voluptatibus tempore facilis! Ipsum repellat placeat iure.</p>
             </div>
         </div>
     </div>
     <div class="container">
-        <h3>Work Expierence</h3>
+        <h3 id="Work Expierence">Work Expierence</h3>
         <div class="row">
             <div class="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident doloribus aliquam illum voluptas laborum alias in inventore, natus et labore.</div>
         </div>
@@ -147,10 +147,33 @@
             <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati tenetur molestiae odit necessitatibus numquam cumque, ratione similique et quam quidem!</div>
         </div>
     </div>
-<footer class="bg-dark text-white d-flex align-bottom">
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sequi quo illo esse odio tempore eveniet, exercitationem sint quaerat mollitia?
-    </p>
+</main>
+<section class="bg-danger vh-100">
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </div>
+</section>
+<footer class="bg-dark text-white">
+    <p>copyright &copy; </p>
+    <a href="./index.html">Top</a>  
+    <p>creatted by Clayton Adonis</p>     
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
