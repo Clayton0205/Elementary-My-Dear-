@@ -1,19 +1,16 @@
-*
-{
-margin: 0;
-padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#Mash
-{
-background-image: url(../Assets/Angra.Mainyu.jpg);
-min-width: 100vw;
-min-height: 100vh;
-color: white;
+#Mash {
+  background-image: url(../Assets/Angra.Mainyu.jpg);
+  min-width: 100vw;
+  min-height: 100vh;
+  color: white;
 }
 
-#Fujimaru
-{
-width: 16vw;
-height: 50vh;
+#Fujimaru {
+  width: 16vw;
+  height: 50vh;
 }
