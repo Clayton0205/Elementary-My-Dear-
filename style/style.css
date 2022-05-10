@@ -1,22 +1,55 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-#Jason
-{
-background-color: black;
-border-bottom: 1px solid white;
+#Jason {
+  top: 0;
+  left: 0;
+  transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
 }
 
-#Mash {
+#Heracles {
+  background-color: black;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 10%);
+  width: 100%;
+  height: 80px;
+  z-index: 999;
+  position: fixed;
+}
+
+/* #Medea
+{} */
+
+#Merlin {
   background-image: url(../Assets/Parvarti.jpg);
   min-width: 100vw;
   min-height: 100vh;
   color: white;
 }
 
+/* #Mashu
+{} */
+
 #Fujimaru {
   width: 16vw;
   height: 50vh;
+  margin-left: 100px;
 }
+
+/* #Olga
+{
+} */
+
+/* #Arjuna
+{} */
+
+/* #Karna
+{} */
+
+/* #Rasputin
+{} */
+
+/* #Anastasia
+{} */
