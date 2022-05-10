@@ -3,8 +3,14 @@
   padding: 0;
 }
 
+#Jason
+{
+background-color: black;
+border-bottom: 1px solid white;
+}
+
 #Mash {
-  background-image: url(../Assets/Angra.Mainyu.jpg);
+  background-image: url(../Assets/Parvarti.jpg);
   min-width: 100vw;
   min-height: 100vh;
   color: white;
