@@ -257,5 +257,12 @@
   align-items: center;
 }
 
-/* #Voyager
-{} */
+#Voyager {
+  background-image: url(../Assets/Angra.Mainyu.jpg);
+  background-attachment: fixed;
+}
+
+.Iris {
+  width: 500px;
+  height: 300px;
+}
