@@ -267,12 +267,25 @@
   height: 300px;
 }
 
-#Fukiyoki
-{
-background-color: crimson;
+#Fukiyoki {
+  background-color: crimson;
 }
 
-#Jeanne
-{
+#Jeanne {
   font-family: Catamaran, sans-serif;
+}
+
+@media only screen and (max-width: 320px) {
+
+  #Rasputin {
+    width: 99vw;
+    height: 90vh;
+    font-size: 45%;
+  }
+
+  #Anastasia {
+    width: 99vw;
+    height: 90vh;
+    font-size: 45%;
+  }
 }
