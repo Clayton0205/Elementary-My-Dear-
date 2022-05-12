@@ -286,6 +286,13 @@
 }
 
 @media only screen and (max-width: 320px) {
+
+#Fate
+{
+  
+  max-width: 100%;
+}
+
   #Rasputin {
     width: 99vw;
     height: 90vh;
@@ -300,7 +307,7 @@
 
   #Heracles
   {
-    min-width: 320px;
+  width: 320px;
   }
 }
 
