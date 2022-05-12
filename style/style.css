@@ -297,6 +297,11 @@
     height: 90vh;
     font-size: 45%;
   }
+
+  #Heracles
+  {
+    min-width: 320px;
+  }
 }
 
 .rounded-circle {
