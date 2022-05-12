@@ -17,11 +17,11 @@
   width: 100%;
   height: 50px;
   z-index: 999;
-  position: fixed;
 }
 
 /* #Medea
-{} */
+{
+} */
 
 #Merlin {
   font-family: Catamaran, sans-serif;
@@ -48,21 +48,28 @@
 #Mashu {
   font-family: Catamaran, sans-serif;
   text-transform: uppercase;
+  scroll-margin: 50px;
 }
 
-/* #Olga
+#Olga
 {
-} */
+  scroll-margin: 50px;
+}
 
-/* #Arjuna
-{} */
+#Arjuna
+{
+  scroll-margin: 50px;
+}
 
-/* #Karna
-{} */
+#Karna
+{
+  scroll-margin: 50px;
+}
 
 #Rasputin {
   font-family: Catamaran, sans-serif;
   text-transform: uppercase;
+  scroll-margin: 50px;
 }
 
 #Artoria {
@@ -178,6 +185,7 @@
 #Anastasia {
   font-family: Catamaran, sans-serif;
   text-transform: uppercase;
+  scroll-margin: 50px;
 }
 
 #Carmila {
@@ -260,6 +268,7 @@
 #Voyager {
   background-image: url(../Assets/Angra.Mainyu.jpg);
   background-attachment: fixed;
+  scroll-margin: 50px;
 }
 
 .Iris {
@@ -273,10 +282,10 @@
 
 #Jeanne {
   font-family: Catamaran, sans-serif;
+  scroll-margin: 50px;
 }
 
 @media only screen and (max-width: 320px) {
-
   #Rasputin {
     width: 99vw;
     height: 90vh;
@@ -288,4 +297,14 @@
     height: 90vh;
     font-size: 45%;
   }
+}
+
+.rounded-circle {
+  width: 250px;
+  height: 250px;
+}
+
+ul
+{
+  list-style: none;
 }
