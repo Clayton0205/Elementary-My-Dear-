@@ -6,12 +6,14 @@
 /* #Fate
 {} */
 
-html,body{
+html,
+body {
   overflow-x: hidden;
 }
 
 #Jason {
   transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
+  z-index: 100;
 }
 
 #Heracles {
@@ -19,7 +21,7 @@ html,body{
   box-shadow: 0 1px 0 rgb(255 255 255 / 10%);
   width: 100%;
   height: 50px;
-  z-index: 999;
+  
 }
 
 /* #Medea
@@ -35,9 +37,8 @@ html,body{
   color: white;
 }
 
-#Shirou
-{
-scroll-margin: 50px;
+#Shirou {
+  scroll-margin: 50px;
 }
 
 #Shirou a:hover {
@@ -47,6 +48,7 @@ scroll-margin: 50px;
 #Romani {
   font-family: Catamaran, sans-serif;
   scroll-margin: 50px;
+  padding-top: 70px;
 }
 
 #Fujimaru {
@@ -60,126 +62,46 @@ scroll-margin: 50px;
 
 #Olga {
   scroll-margin: 50px;
+  padding-top: 20px;
 }
 
 #Arjuna {
   scroll-margin: 50px;
+  padding-top: 70px;
 }
 
 #Karna {
   scroll-margin: 50px;
+  padding-top: 20px;
 }
 
 #Rasputin {
   font-family: Catamaran, sans-serif;
   text-transform: uppercase;
   scroll-margin: 50px;
+  padding-top: 70px;
 }
 
 #Anastasia {
   font-family: Catamaran, sans-serif;
   text-transform: uppercase;
   scroll-margin: 50px;
-}
-
-#Voyager {
-  background-image: url(../Assets/Angra.Mainyu.jpg);
-  background-attachment: fixed;
-  scroll-margin: 50px;
-}
-
-.Iris {
-  width: 600px;
-  height: 350px;
-}
-
-#Fukiyoki {
-  background-color: crimson;
-}
-
-#Jeanne {
-  font-family: Catamaran, sans-serif;
-  scroll-margin: 50px;
-}
-
-.rounded-circle {
-  width: 250px;
-  height: 250px;
-  object-fit: cover;
-}
-
-ul {
-  list-style: none;
-}
-
-.bi {
-  color: crimson;
-}
-
-#NewPhoneWhoDis {
-  background-color: black;
-  color: azure;
-}
-
-@media only screen and (max-width: 425px) {
-  #Jason {
-    position: fixed;
-  }
-
-  #Heracles {
-    max-width: 100%;
-    position: fixed;
-  }
-
-  #Medea
-  {
-  background-color: black;
-  }
-
-  #Romani
-  {
-  padding-top: 20px;
-  }
-
-  #Fujimaru {
-    width: 360px;
-  padding-right: 20px;
-  }
-
-#Mashu
-{
-padding-top: 20px;
-}
-
-#Olga
-{
-padding-top: 70px;
-}
-
-#Arjuna
-{
-padding-top: 70px;
-}
-
-#Karna
-{
-padding-top: 70px;
-}
-
-#Rasputin
-{
   padding-top: 70px;
 }
 
-.bi
+#Kiligula
 {
-font-size: 7px;
+  padding-top: 20px;
 }
 
-  .Iris {
-    width: 100px;
-    height: 100px;
-  }
+#Jack
+{
+  padding-top: 20px;
+}
+
+#MountainMan
+{
+  padding-top: 20px;
 }
 
 #Artoria {
@@ -368,3 +290,139 @@ font-size: 7px;
   justify-content: center;
   align-items: center;
 }
+
+#Voyager {
+  background-image: url(../Assets/Angra.Mainyu.jpg);
+  background-attachment: fixed;
+  scroll-margin: 50px;
+}
+
+.Iris {
+  width: 600px;
+  height: 350px;
+}
+
+#Fukiyoki {
+  background-color: crimson;
+}
+
+#Jeanne {
+  font-family: Catamaran, sans-serif;
+  scroll-margin: 50px;
+  padding-top: 70px;
+}
+
+#Nero
+{
+  padding-top: 70px;
+}
+
+.rounded-circle {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+.bi {
+  color: crimson;
+}
+
+#NewPhoneWhoDis {
+  background-color: black;
+  color: azure;
+}
+
+.bi
+{
+  font-size: 1.4em;
+}
+
+@media only screen and (max-width: 425px) {
+  #Jason {
+    position: fixed;
+  }
+
+
+  #Heracles {
+    max-width: 100%;
+    position: fixed;
+    
+  }
+
+  #Medea {
+    background-color: black;
+  }
+
+  #Romani {
+    padding-top: 20px;
+  }
+
+  #Fujimaru {
+    width: 360px;
+    padding-right: 20px;
+  }
+
+  #Mashu {
+    padding-top: 20px;
+  }
+
+  #Olga {
+    padding-top: 70px;
+  }
+
+  #Arjuna {
+    padding-top: 70px;
+  }
+
+  #Karna {
+    padding-top: 70px;
+  }
+
+  #Rasputin {
+    padding-top: 70px;
+  }
+
+  .bi {
+    font-size: 7px;
+  }
+
+  #Anastasia
+  {
+    padding-top: 70px;
+  }
+
+  #Kiligula
+  {
+  padding-top: 20px;
+  }
+
+  #Jack
+  {
+  padding-top: 20px;
+  }
+
+  #MountainMan
+  {
+  padding-top: 20px;
+  }
+
+  #Jeanne
+  {
+  padding-top: 70px;
+  }
+
+  #Nero
+  {
+    padding-top: 70px;
+  }
+
+  .Iris {
+    width: 100px;
+    height: 100px;
+  }
+}
+
