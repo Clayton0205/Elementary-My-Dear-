@@ -21,7 +21,7 @@ body {
   box-shadow: 0 1px 0 rgb(255 255 255 / 10%);
   width: 100%;
   height: 50px;
-  
+
 }
 
 /* #Medea
@@ -89,18 +89,15 @@ body {
   padding-top: 70px;
 }
 
-#Kiligula
-{
+#Kiligula {
   padding-top: 20px;
 }
 
-#Jack
-{
+#Jack {
   padding-top: 20px;
 }
 
-#MountainMan
-{
+#MountainMan {
   padding-top: 20px;
 }
 
@@ -204,6 +201,29 @@ body {
   align-items: center;
 }
 
+#Napoleon
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 200px;
+  background: #f7f3e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#Hanz
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 200px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #Carmila {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -251,7 +271,7 @@ body {
 #Paris {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 15%;
+  width: 200px;
   height: 200px;
   background: white;
   display: flex;
@@ -262,7 +282,7 @@ body {
 #Gareth {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 15%;
+  width: 200px;
   height: 200px;
   background: #f7f3e2;
   display: flex;
@@ -273,7 +293,7 @@ body {
 #Kama {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 15%;
+  width: 200px;
   height: 200px;
   background: white;
   display: flex;
@@ -302,8 +322,7 @@ body {
   padding-top: 70px;
 }
 
-#Nero
-{
+#Nero {
   padding-top: 70px;
 }
 
@@ -326,19 +345,15 @@ ul {
   color: azure;
 }
 
-.bi
-{
+.bi {
   font-size: 1.4em;
 }
 
-#Siegfried
-{
-margin-top: 70px;
+#Siegfried {
+  margin-top: 70px;
 }
 
-
-
-@media only screen and (min-width: 425px) and (max-width: 426px) {
+@media only screen and (min-width: 375px) and (max-width: 376px) {
   #Jason {
     position: fixed;
   }
@@ -347,11 +362,11 @@ margin-top: 70px;
   #Heracles {
     max-width: 100%;
     position: fixed;
-    
+
   }
 
   #Medea {
-    background-color: black;
+    background-color: black !important;
   }
 
   #Romani {
@@ -384,47 +399,42 @@ margin-top: 70px;
   }
 
   .bi {
-    font-size: 7px;
+    font-size: 15px;
   }
 
-  #Anastasia
-  {
+  #Anastasia {
     padding-top: 70px;
   }
 
-  #Kiligula
-  {
-  padding-top: 20px;
+  #Kiligula {
+    padding-top: 20px;
   }
 
-  #Jack
-  {
-  padding-top: 20px;
+  #Jack {
+    padding-top: 20px;
   }
 
-  #MountainMan
-  {
-  padding-top: 20px;
+  #MountainMan {
+    padding-top: 20px;
   }
 
-  #Jeanne
-  {
-  padding-top: 70px;
-  }
-
-  #Nero
-  {
+  #Jeanne {
     padding-top: 70px;
+  }
+
+  #Nero {
+    padding-top: 70px;
+    f
   }
 
   .Iris {
-    width: 100px;
+    width: 400px;
     height: 100px;
   }
 
   #Artoria {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width : 200px;
+    width: 375px;
     transition: 0.3s;
     height: 200px;
     background: white;
@@ -432,10 +442,10 @@ margin-top: 70px;
     justify-content: center;
     align-items: center;
   }
-  
+
   #Diarmud {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width : 200px;
+    width: 400px;
     transition: 0.3s;
     height: 200px;
     background: #f7f3e2;
@@ -443,10 +453,10 @@ margin-top: 70px;
     justify-content: center;
     align-items: center;
   }
-  
+
   #Iskandar {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width : 200px;
+    width: 400px;
     transition: 0.3s;
     height: 200px;
     background: white;
@@ -454,10 +464,10 @@ margin-top: 70px;
     justify-content: center;
     align-items: center;
   }
-  
+
   #Gilles {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width : 200px;
+    width: 400px;
     transition: 0.3s;
     height: 200px;
     background: #f7f3e2;
@@ -465,10 +475,10 @@ margin-top: 70px;
     justify-content: center;
     align-items: center;
   }
-  
+
   #HundredFace {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width : 200px;
+    width: 400px;
     transition: 0.3s;
     height: 200px;
     background: white;
@@ -476,10 +486,10 @@ margin-top: 70px;
     justify-content: center;
     align-items: center;
   }
-  
+
   #EMIYA {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width : 200px;
+    width: 400px;
     transition: 0.3s;
     height: 200px;
     background: #f7f3e2;
@@ -487,10 +497,10 @@ margin-top: 70px;
     justify-content: center;
     align-items: center;
   }
-  
+
   #Cu {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width : 200px;
+    width: 400px;
     transition: 0.3s;
     height: 200px;
     background: white;
@@ -498,10 +508,10 @@ margin-top: 70px;
     justify-content: center;
     align-items: center;
   }
-  
+
   #Kojiro {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width : 200px;
+    width: 400px;
     transition: 0.3s;
     height: 200px;
     background: #f7f3e2;
@@ -509,10 +519,10 @@ margin-top: 70px;
     justify-content: center;
     align-items: center;
   }
-  
+
   #Medusa {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width : 200px;
+    width: 400px;
     transition: 0.3s;
     height: 200px;
     background: white;
@@ -520,10 +530,10 @@ margin-top: 70px;
     justify-content: center;
     align-items: center;
   }
-  
+
   #CursedArm {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width : 200px;
+    width: 400px;
     transition: 0.3s;
     height: 200px;
     background: #f7f3e2;
@@ -532,7 +542,70 @@ margin-top: 70px;
     align-items: center;
   }
 
- 
+  #Carmila {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 400px;
+    height: 200px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #Kyohime {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 400px;
+    height: 200px;
+    background: #f7f3e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #Elizabeth {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 400px;
+    height: 200px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Paris {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 400px;
+    height: 200px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #Gareth {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 400px;
+    height: 200px;
+    background: #f7f3e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #Kama {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 400px;
+    height: 200px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 }
-
