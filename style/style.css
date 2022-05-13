@@ -341,6 +341,13 @@ ul {
   font-size: 1.4em;
 }
 
+#Siegfried
+{
+margin-top: 70px;
+}
+
+
+
 @media only screen and (max-width: 425px) {
   #Jason {
     position: fixed;
