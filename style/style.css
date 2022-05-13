@@ -338,7 +338,7 @@ margin-top: 70px;
 
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 426px) {
   #Jason {
     position: fixed;
   }
@@ -531,5 +531,8 @@ margin-top: 70px;
     justify-content: center;
     align-items: center;
   }
+
+ 
+
 }
 
