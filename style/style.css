@@ -1,11 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 /* #Fate
 {} */
+
+html,body{
+  overflow-x: hidden;
+}
 
 #Jason {
   transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
@@ -51,18 +54,15 @@
   scroll-margin: 50px;
 }
 
-#Olga
-{
+#Olga {
   scroll-margin: 50px;
 }
 
-#Arjuna
-{
+#Arjuna {
   scroll-margin: 50px;
 }
 
-#Karna
-{
+#Karna {
   scroll-margin: 50px;
 }
 
@@ -70,6 +70,75 @@
   font-family: Catamaran, sans-serif;
   text-transform: uppercase;
   scroll-margin: 50px;
+}
+
+#Anastasia {
+  font-family: Catamaran, sans-serif;
+  text-transform: uppercase;
+  scroll-margin: 50px;
+}
+
+#Voyager {
+  background-image: url(../Assets/Angra.Mainyu.jpg);
+  background-attachment: fixed;
+  scroll-margin: 50px;
+}
+
+.Iris {
+  width: 600px;
+  height: 350px;
+}
+
+#Fukiyoki {
+  background-color: crimson;
+}
+
+#Jeanne {
+  font-family: Catamaran, sans-serif;
+  scroll-margin: 50px;
+}
+
+.rounded-circle {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+.bi {
+  color: crimson;
+}
+
+#NewPhoneWhoDis {
+  background-color: black;
+  color: azure;
+}
+
+@media only screen and (max-width: 425px) {
+  #Jason {
+    position: fixed;
+  }
+
+  #Heracles {
+    max-width: 100%;
+    position: fixed;
+  }
+
+  #Fujimaru {
+    width: 100%;
+  }
+
+  #Fate {
+    max-width: 375px;
+  }
+
+  .Iris {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 #Artoria {
@@ -182,12 +251,6 @@
   align-items: center;
 }
 
-#Anastasia {
-  font-family: Catamaran, sans-serif;
-  text-transform: uppercase;
-  scroll-margin: 50px;
-}
-
 #Carmila {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -263,72 +326,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-#Voyager {
-  background-image: url(../Assets/Angra.Mainyu.jpg);
-  background-attachment: fixed;
-  scroll-margin: 50px;
-}
-
-.Iris {
-  width: 500px;
-  height: 300px;
-}
-
-#Fukiyoki {
-  background-color: crimson;
-}
-
-#Jeanne {
-  font-family: Catamaran, sans-serif;
-  scroll-margin: 50px;
-}
-
-@media only screen and (max-width: 320px) {
-
-#Fate
-{
-  
-  max-width: 100%;
-}
-
-  #Rasputin {
-    width: 99vw;
-    height: 90vh;
-    font-size: 45%;
-  }
-
-  #Anastasia {
-    width: 99vw;
-    height: 90vh;
-    font-size: 45%;
-  }
-
-  #Heracles
-  {
-  width: 320px;
-  }
-}
-
-.rounded-circle {
-  width: 250px;
-  height: 250px;
-}
-
-ul
-{
-  list-style: none;
-}
-
-.bi
-{
-  color: crimson;
-}
-
-
-#NewPhoneWhoDis
-{
- background-color: black;
- color: azure;
 }
