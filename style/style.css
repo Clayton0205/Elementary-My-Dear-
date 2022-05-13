@@ -35,12 +35,18 @@ html,body{
   color: white;
 }
 
+#Shirou
+{
+scroll-margin: 50px;
+}
+
 #Shirou a:hover {
   background-color: crimson;
 }
 
 #Romani {
   font-family: Catamaran, sans-serif;
+  scroll-margin: 50px;
 }
 
 #Fujimaru {
@@ -49,8 +55,6 @@ html,body{
 }
 
 #Mashu {
-  font-family: Catamaran, sans-serif;
-  text-transform: uppercase;
   scroll-margin: 50px;
 }
 
@@ -127,13 +131,50 @@ ul {
     position: fixed;
   }
 
-  #Fujimaru {
-    width: 100%;
+  #Medea
+  {
+  background-color: black;
   }
 
-  #Fate {
-    max-width: 375px;
+  #Romani
+  {
+  padding-top: 20px;
   }
+
+  #Fujimaru {
+    width: 360px;
+  padding-right: 20px;
+  }
+
+#Mashu
+{
+padding-top: 20px;
+}
+
+#Olga
+{
+padding-top: 70px;
+}
+
+#Arjuna
+{
+padding-top: 70px;
+}
+
+#Karna
+{
+padding-top: 70px;
+}
+
+#Rasputin
+{
+  padding-top: 70px;
+}
+
+.bi
+{
+font-size: 7px;
+}
 
   .Iris {
     width: 100px;
