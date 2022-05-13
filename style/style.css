@@ -107,7 +107,6 @@ body {
 #Artoria {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 15%;
   height: 200px;
   background: white;
   display: flex;
@@ -118,7 +117,6 @@ body {
 #Diarmud {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 15%;
   height: 200px;
   background: #f7f3e2;
   display: flex;
@@ -129,7 +127,6 @@ body {
 #Iskandar {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 15%;
   height: 200px;
   background: white;
   display: flex;
@@ -140,7 +137,6 @@ body {
 #Gilles {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 15%;
   height: 200px;
   background: #f7f3e2;
   display: flex;
@@ -151,7 +147,6 @@ body {
 #HundredFace {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 15%;
   height: 200px;
   background: white;
   display: flex;
@@ -162,7 +157,6 @@ body {
 #EMIYA {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 15%;
   height: 200px;
   background: #f7f3e2;
   display: flex;
@@ -173,7 +167,6 @@ body {
 #Cu {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 15%;
   height: 200px;
   background: white;
   display: flex;
@@ -184,7 +177,6 @@ body {
 #Kojiro {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 15%;
   height: 200px;
   background: #f7f3e2;
   display: flex;
@@ -195,7 +187,6 @@ body {
 #Medusa {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 15%;
   height: 200px;
   background: white;
   display: flex;
@@ -206,7 +197,6 @@ body {
 #CursedArm {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 15%;
   height: 200px;
   background: #f7f3e2;
   display: flex;
@@ -430,6 +420,116 @@ margin-top: 70px;
   .Iris {
     width: 100px;
     height: 100px;
+  }
+
+  #Artoria {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width : 200px;
+    transition: 0.3s;
+    height: 200px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #Diarmud {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width : 200px;
+    transition: 0.3s;
+    height: 200px;
+    background: #f7f3e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #Iskandar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width : 200px;
+    transition: 0.3s;
+    height: 200px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #Gilles {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width : 200px;
+    transition: 0.3s;
+    height: 200px;
+    background: #f7f3e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #HundredFace {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width : 200px;
+    transition: 0.3s;
+    height: 200px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #EMIYA {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width : 200px;
+    transition: 0.3s;
+    height: 200px;
+    background: #f7f3e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #Cu {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width : 200px;
+    transition: 0.3s;
+    height: 200px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #Kojiro {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width : 200px;
+    transition: 0.3s;
+    height: 200px;
+    background: #f7f3e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #Medusa {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width : 200px;
+    transition: 0.3s;
+    height: 200px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #CursedArm {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width : 200px;
+    transition: 0.3s;
+    height: 200px;
+    background: #f7f3e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
