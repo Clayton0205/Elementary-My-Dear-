@@ -17,22 +17,29 @@ body {
 }
 
 #Heracles {
-  background-color: black;
+  background-color: rgb(255, 209, 219);
   box-shadow: 0 1px 0 rgb(255 255 255 / 10%);
   width: 100%;
   height: 50px;
 
 }
 
+#Fate
+{
+font-family: 'Courier New', Courier, monospace;
+}
+
 /* #Medea
 {
 } */
 
-
+.iNT
+{
+background-color: rgb(254, 169, 169);
+}
 
 #Merlin {
-  font-family: Catamaran, sans-serif;
-  background-image: url(../Assets/Parvarti.jpg);
+  background-image: url(../Assets/cherry-blossom-background-free-vector.jpg);
   background-attachment: fixed;
   min-width: 100vw;
   min-height: 100vh;
@@ -48,7 +55,6 @@ body {
 }
 
 #Romani {
-  font-family: Catamaran, sans-serif;
   scroll-margin: 50px;
   padding-top: 70px;
 }
@@ -85,14 +91,12 @@ body {
 }
 
 #Rasputin {
-  font-family: Catamaran, sans-serif;
   text-transform: uppercase;
   scroll-margin: 50px;
   padding-top: 70px;
 }
 
 #Anastasia {
-  font-family: Catamaran, sans-serif;
   text-transform: uppercase;
   scroll-margin: 50px;
   padding-top: 70px;
@@ -311,7 +315,7 @@ body {
 }
 
 #Voyager {
-  background-image: url(../Assets/Angra.Mainyu.jpg);
+  background-image: url(../Assets/777.jpg);
   background-attachment: fixed;
   scroll-margin: 50px;
 }
@@ -326,7 +330,6 @@ body {
 }
 
 #Jeanne {
-  font-family: Catamaran, sans-serif;
   scroll-margin: 50px;
   padding-top: 70px;
 }
@@ -375,7 +378,7 @@ ul {
   }
 
   #Medea {
-    background-color: black !important;
+    background-color: rgb(255, 209, 219) !important;
   }
 
   #Romani {
@@ -620,6 +623,11 @@ ul {
 .rot
 {
 max-width: 230px;
+}
+
+#colcard
+{
+padding-top: 20px;
 }
 
 
