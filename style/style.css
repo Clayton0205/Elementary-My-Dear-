@@ -28,6 +28,8 @@ body {
 {
 } */
 
+
+
 #Merlin {
   font-family: Catamaran, sans-serif;
   background-image: url(../Assets/Parvarti.jpg);
@@ -320,7 +322,7 @@ body {
 }
 
 #Fukiyoki {
-  background-color: crimson;
+  background-color: rgb(247, 233, 236);
 }
 
 #Jeanne {
@@ -435,8 +437,8 @@ ul {
   }
 
   .Iris {
-    width: 400px;
-    height: 100px;
+    width: 360px;
+    height: 200px;
   }
 
   #Artoria {
@@ -614,5 +616,11 @@ ul {
     justify-content: center;
     align-items: center;
   }
+
+.rot
+{
+max-width: 230px;
+}
+
 
 }
